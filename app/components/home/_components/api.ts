@@ -12,8 +12,8 @@ import type {
     LinkResponse
 } from './types'
 
-// export const DIGEMART_API_BASE = 'https://api.digemart.com/api'
-export const DIGEMART_API_BASE = 'http://localhost:4402/api'
+export const DIGEMART_API_BASE = 'https://api.digemart.com/api'
+// export const DIGEMART_API_BASE = 'http://localhost:4402/api'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const parseLink = (data: any): string | null => {
